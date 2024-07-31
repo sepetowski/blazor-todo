@@ -1,0 +1,198 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\bushm\\source\\repos\\AdvanceToDo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{63BAA64C-BD93-4C69-9F36-AD340727F2B7}|AdvanceToDo\\AdvanceToDo.csproj|c:\\users\\bushm\\source\\repos\\advancetodo\\advancetodo\\shared\\generaterandomid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63BAA64C-BD93-4C69-9F36-AD340727F2B7}|AdvanceToDo\\AdvanceToDo.csproj|solutionrelative:advancetodo\\shared\\generaterandomid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63BAA64C-BD93-4C69-9F36-AD340727F2B7}|AdvanceToDo\\AdvanceToDo.csproj|c:\\users\\bushm\\source\\repos\\advancetodo\\advancetodo\\components\\tagdropdown\\neworedittag.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63BAA64C-BD93-4C69-9F36-AD340727F2B7}|AdvanceToDo\\AdvanceToDo.csproj|solutionrelative:advancetodo\\components\\tagdropdown\\neworedittag.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63BAA64C-BD93-4C69-9F36-AD340727F2B7}|AdvanceToDo\\AdvanceToDo.csproj|c:\\users\\bushm\\source\\repos\\advancetodo\\advancetodo\\components\\tagdropdown\\neworedittag.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{63BAA64C-BD93-4C69-9F36-AD340727F2B7}|AdvanceToDo\\AdvanceToDo.csproj|solutionrelative:advancetodo\\components\\tagdropdown\\neworedittag.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63BAA64C-BD93-4C69-9F36-AD340727F2B7}|AdvanceToDo\\AdvanceToDo.csproj|c:\\users\\bushm\\source\\repos\\advancetodo\\advancetodo\\components\\tagdropdown\\tagitem.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63BAA64C-BD93-4C69-9F36-AD340727F2B7}|AdvanceToDo\\AdvanceToDo.csproj|solutionrelative:advancetodo\\components\\tagdropdown\\tagitem.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63BAA64C-BD93-4C69-9F36-AD340727F2B7}|AdvanceToDo\\AdvanceToDo.csproj|c:\\users\\bushm\\source\\repos\\advancetodo\\advancetodo\\components\\tagdropdown\\tagitem.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{63BAA64C-BD93-4C69-9F36-AD340727F2B7}|AdvanceToDo\\AdvanceToDo.csproj|solutionrelative:advancetodo\\components\\tagdropdown\\tagitem.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63BAA64C-BD93-4C69-9F36-AD340727F2B7}|AdvanceToDo\\AdvanceToDo.csproj|c:\\users\\bushm\\source\\repos\\advancetodo\\advancetodo\\components\\tagdropdown\\tagdropdown.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{63BAA64C-BD93-4C69-9F36-AD340727F2B7}|AdvanceToDo\\AdvanceToDo.csproj|solutionrelative:advancetodo\\components\\tagdropdown\\tagdropdown.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63BAA64C-BD93-4C69-9F36-AD340727F2B7}|AdvanceToDo\\AdvanceToDo.csproj|c:\\users\\bushm\\source\\repos\\advancetodo\\advancetodo\\components\\tagdropdown\\tagdropdown.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63BAA64C-BD93-4C69-9F36-AD340727F2B7}|AdvanceToDo\\AdvanceToDo.csproj|solutionrelative:advancetodo\\components\\tagdropdown\\tagdropdown.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63BAA64C-BD93-4C69-9F36-AD340727F2B7}|AdvanceToDo\\AdvanceToDo.csproj|c:\\users\\bushm\\source\\repos\\advancetodo\\advancetodo\\models\\responseinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63BAA64C-BD93-4C69-9F36-AD340727F2B7}|AdvanceToDo\\AdvanceToDo.csproj|solutionrelative:advancetodo\\models\\responseinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63BAA64C-BD93-4C69-9F36-AD340727F2B7}|AdvanceToDo\\AdvanceToDo.csproj|c:\\users\\bushm\\source\\repos\\advancetodo\\advancetodo\\clients\\tagsclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63BAA64C-BD93-4C69-9F36-AD340727F2B7}|AdvanceToDo\\AdvanceToDo.csproj|solutionrelative:advancetodo\\clients\\tagsclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63BAA64C-BD93-4C69-9F36-AD340727F2B7}|AdvanceToDo\\AdvanceToDo.csproj|c:\\users\\bushm\\source\\repos\\advancetodo\\advancetodo\\models\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63BAA64C-BD93-4C69-9F36-AD340727F2B7}|AdvanceToDo\\AdvanceToDo.csproj|solutionrelative:advancetodo\\models\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63BAA64C-BD93-4C69-9F36-AD340727F2B7}|AdvanceToDo\\AdvanceToDo.csproj|c:\\users\\bushm\\source\\repos\\advancetodo\\advancetodo\\models\\todo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63BAA64C-BD93-4C69-9F36-AD340727F2B7}|AdvanceToDo\\AdvanceToDo.csproj|solutionrelative:advancetodo\\models\\todo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GenerateRandomId.cs",
+              "DocumentMoniker": "C:\\Users\\bushm\\source\\repos\\AdvanceToDo\\AdvanceToDo\\Shared\\GenerateRandomId.cs",
+              "RelativeDocumentMoniker": "AdvanceToDo\\Shared\\GenerateRandomId.cs",
+              "ToolTip": "C:\\Users\\bushm\\source\\repos\\AdvanceToDo\\AdvanceToDo\\Shared\\GenerateRandomId.cs",
+              "RelativeToolTip": "AdvanceToDo\\Shared\\GenerateRandomId.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T10:13:24.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NewOrEditTag.razor.cs",
+              "DocumentMoniker": "C:\\Users\\bushm\\source\\repos\\AdvanceToDo\\AdvanceToDo\\Components\\TagDropdown\\NewOrEditTag.razor.cs",
+              "RelativeDocumentMoniker": "AdvanceToDo\\Components\\TagDropdown\\NewOrEditTag.razor.cs",
+              "ToolTip": "C:\\Users\\bushm\\source\\repos\\AdvanceToDo\\AdvanceToDo\\Components\\TagDropdown\\NewOrEditTag.razor.cs",
+              "RelativeToolTip": "AdvanceToDo\\Components\\TagDropdown\\NewOrEditTag.razor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T17:49:11.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NewOrEditTag.razor",
+              "DocumentMoniker": "C:\\Users\\bushm\\source\\repos\\AdvanceToDo\\AdvanceToDo\\Components\\TagDropdown\\NewOrEditTag.razor",
+              "RelativeDocumentMoniker": "AdvanceToDo\\Components\\TagDropdown\\NewOrEditTag.razor",
+              "ToolTip": "C:\\Users\\bushm\\source\\repos\\AdvanceToDo\\AdvanceToDo\\Components\\TagDropdown\\NewOrEditTag.razor",
+              "RelativeToolTip": "AdvanceToDo\\Components\\TagDropdown\\NewOrEditTag.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-29T17:49:05.875Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TagItem.razor.cs",
+              "DocumentMoniker": "C:\\Users\\bushm\\source\\repos\\AdvanceToDo\\AdvanceToDo\\Components\\TagDropdown\\TagItem.razor.cs",
+              "RelativeDocumentMoniker": "AdvanceToDo\\Components\\TagDropdown\\TagItem.razor.cs",
+              "ToolTip": "C:\\Users\\bushm\\source\\repos\\AdvanceToDo\\AdvanceToDo\\Components\\TagDropdown\\TagItem.razor.cs",
+              "RelativeToolTip": "AdvanceToDo\\Components\\TagDropdown\\TagItem.razor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T17:40:31.837Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TagItem.razor",
+              "DocumentMoniker": "C:\\Users\\bushm\\source\\repos\\AdvanceToDo\\AdvanceToDo\\Components\\TagDropdown\\TagItem.razor",
+              "RelativeDocumentMoniker": "AdvanceToDo\\Components\\TagDropdown\\TagItem.razor",
+              "ToolTip": "C:\\Users\\bushm\\source\\repos\\AdvanceToDo\\AdvanceToDo\\Components\\TagDropdown\\TagItem.razor",
+              "RelativeToolTip": "AdvanceToDo\\Components\\TagDropdown\\TagItem.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-29T17:40:24.454Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TagDropdown.razor.cs",
+              "DocumentMoniker": "C:\\Users\\bushm\\source\\repos\\AdvanceToDo\\AdvanceToDo\\Components\\TagDropdown\\TagDropdown.razor.cs",
+              "RelativeDocumentMoniker": "AdvanceToDo\\Components\\TagDropdown\\TagDropdown.razor.cs",
+              "ToolTip": "C:\\Users\\bushm\\source\\repos\\AdvanceToDo\\AdvanceToDo\\Components\\TagDropdown\\TagDropdown.razor.cs",
+              "RelativeToolTip": "AdvanceToDo\\Components\\TagDropdown\\TagDropdown.razor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T17:25:38.208Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TagDropdown.razor",
+              "DocumentMoniker": "C:\\Users\\bushm\\source\\repos\\AdvanceToDo\\AdvanceToDo\\Components\\TagDropdown\\TagDropdown.razor",
+              "RelativeDocumentMoniker": "AdvanceToDo\\Components\\TagDropdown\\TagDropdown.razor",
+              "ToolTip": "C:\\Users\\bushm\\source\\repos\\AdvanceToDo\\AdvanceToDo\\Components\\TagDropdown\\TagDropdown.razor",
+              "RelativeToolTip": "AdvanceToDo\\Components\\TagDropdown\\TagDropdown.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-29T16:38:34.943Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ResponseInfo.cs",
+              "DocumentMoniker": "C:\\Users\\bushm\\source\\repos\\AdvanceToDo\\AdvanceToDo\\Models\\ResponseInfo.cs",
+              "RelativeDocumentMoniker": "AdvanceToDo\\Models\\ResponseInfo.cs",
+              "ToolTip": "C:\\Users\\bushm\\source\\repos\\AdvanceToDo\\AdvanceToDo\\Models\\ResponseInfo.cs",
+              "RelativeToolTip": "AdvanceToDo\\Models\\ResponseInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T16:26:15.451Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TagsClient.cs",
+              "DocumentMoniker": "C:\\Users\\bushm\\source\\repos\\AdvanceToDo\\AdvanceToDo\\Clients\\TagsClient.cs",
+              "RelativeDocumentMoniker": "AdvanceToDo\\Clients\\TagsClient.cs",
+              "ToolTip": "C:\\Users\\bushm\\source\\repos\\AdvanceToDo\\AdvanceToDo\\Clients\\TagsClient.cs",
+              "RelativeToolTip": "AdvanceToDo\\Clients\\TagsClient.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T16:00:48.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Tag.cs",
+              "DocumentMoniker": "C:\\Users\\bushm\\source\\repos\\AdvanceToDo\\AdvanceToDo\\Models\\Tag.cs",
+              "RelativeDocumentMoniker": "AdvanceToDo\\Models\\Tag.cs",
+              "ToolTip": "C:\\Users\\bushm\\source\\repos\\AdvanceToDo\\AdvanceToDo\\Models\\Tag.cs",
+              "RelativeToolTip": "AdvanceToDo\\Models\\Tag.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T15:57:53.868Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Todo.cs",
+              "DocumentMoniker": "C:\\Users\\bushm\\source\\repos\\AdvanceToDo\\AdvanceToDo\\Models\\Todo.cs",
+              "RelativeDocumentMoniker": "AdvanceToDo\\Models\\Todo.cs",
+              "ToolTip": "C:\\Users\\bushm\\source\\repos\\AdvanceToDo\\AdvanceToDo\\Models\\Todo.cs",
+              "RelativeToolTip": "AdvanceToDo\\Models\\Todo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T15:32:16.536Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

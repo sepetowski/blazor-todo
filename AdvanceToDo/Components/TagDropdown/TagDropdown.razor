@@ -1,0 +1,25 @@
+﻿@rendermode InteractiveServer
+
+
+<div class="dropdown">
+  <button  @onclick="()=>OnChangeMode(CurrentMode.Browsing)" type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside">
+    Select Tag
+  </button>
+
+  <div class="dropdown-menu p-2">
+
+    @if (currentMode == CurrentMode.Browsing) {
+      @foreach(var tag in TagsClient.GetTags()){
+        <TagItem @key="tag" Tag="tag" OnDelete="()=>OnDelete(tag.Id)" OnStartEdit="()=>StartEditTag(CurrentMode.Editing,tag.Id)"/>
+      }
+      @if(TagsClient.GetTags().Count() ==0){
+        <p class="text-center my-2">No tags yet</p>
+      }
+    <div class="dropdown-divider my-3 "></div>
+    <button  @onclick="()=>OnChangeMode(CurrentMode.Creating)" class="btn btn-outline-primary w-100 btn-sm">Add New Tag</button>
+
+    }else{
+     <NewOrEditTag Tag="editingTag"  OnCancel="()=>OnChangeMode(CurrentMode.Browsing)" Editing="@IsEdditing()" />
+    }
+  </div>
+</div>

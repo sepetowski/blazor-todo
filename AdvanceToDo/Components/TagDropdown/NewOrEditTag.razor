@@ -1,0 +1,28 @@
+﻿
+@rendermode InteractiveServer
+
+
+@if(Model is not null){
+<EditForm Model="@Model"  FormName="EditOrNewTag" OnValidSubmit="SubmitAsync" OnInvalidSubmit="()=>errorMsg=null" >
+    <DataAnnotationsValidator/>
+
+    <div class="mb-3">
+        <label for="TagTitle" class="form-label ">Tag Title</label>
+        <InputText @oninput="()=>errorMsg=null" class="form-control form-control-sm" id="TagTitle" @bind-Value="Model.Title" />
+       
+        <div class="fs-6 text-danger">
+        <ValidationMessage For="()=> Model.Title" />
+        @if(errorMsg is not null){
+            <p>@errorMsg</p>
+        }
+        </div>
+    </div>
+
+    <div class="d-flex w-100 align-items-center gap-2">
+        <button type="button" @onclick="OnCancel" class="btn btn-secondary btn-sm w-100">Cancel</button>
+        <button type="submit" class="btn btn-primary btn-sm w-100">@((Editing) ? "Update" : "Create")</button>
+    </div>
+</EditForm>
+}
+
+

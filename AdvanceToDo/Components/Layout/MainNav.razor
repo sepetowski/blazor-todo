@@ -1,0 +1,49 @@
+<nav class="navbar  bg-body-tertiary b sticky-top ">
+  <div class="container-xl ">
+    <NavLink href="" class=" navbar-brand ">EasyTime</NavLink>
+    <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+       <i class="bi bi-list text-light border-light"></i>
+    </button>
+
+ 
+      <div class="d-none d-lg-flex  align-items-center gap-4  ">
+        <div class="navbar-nav flex-row gap-4">
+            <NavLink ActiveClass="active" href="/todos"  class="nav-link ">All todos</NavLink>
+       
+            <NavLink ActiveClass="active" href="/completed"  class="nav-link">Completed</NavLink>
+            <NavLink ActiveClass="active" href="/tags"  class="nav-link">Tags</NavLink>
+         </div>
+        <div class="d-flex gap-2">
+            <NavLink  href="/new-todo"  role="button" class=" btn btn-primary "><i class="bi bi-file-plus"></i></NavLink>
+            <NavLink  href="/new-tag"  role="button" class=" btn btn-outline-primary "><i class="bi bi-tag-fill"></i></NavLink>
+        </div>
+    </div>
+
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">EasyTime</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+          <li class="nav-item">
+             <NavLink ActiveClass="active" href="/todos"  class="nav-link">All todos</NavLink>
+          </li>
+          <li class="nav-item">
+             <NavLink ActiveClass="active" href="/completed"  class="nav-link">Completed</NavLink>
+          </li>
+          <li class="nav-item">
+             <NavLink ActiveClass="active" href="/tags"  class="nav-link">Tags</NavLink>
+          </li>
+          <li class="nav-item mt-3">
+             <NavLink  href="/new-todo"  role="button" class=" btn btn-primary w-100"><i class="bi bi-file-plus"></i> Add New Todo</NavLink>
+          </li>
+           <li class="nav-item mt-3">
+             <NavLink  href="/new-tag"  role="button" class=" btn btn-secondary w-100"><i class="bi bi-tag-fill"></i> Add New Tag</NavLink>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
