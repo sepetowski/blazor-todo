@@ -1,0 +1,11 @@
+﻿@rendermode InteractiveServer
+
+
+<div class="my-5 d-flex flex-column align-items-center w-100 gap-4">
+    @foreach(var todo in TodoClient.GetTodos()){
+        <TodoItem @key="todo.Id" Todo="todo"/>
+    }
+
+</div>
+
+
