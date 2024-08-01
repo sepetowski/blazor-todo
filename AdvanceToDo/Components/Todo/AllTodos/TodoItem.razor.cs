@@ -17,6 +17,9 @@ namespace AdvanceToDo.Components.Todo.AllTodos
         [Inject]
         private TodoClient TodoClient {get;set;}= default!;
 
+        [Inject]
+        public NavigationManager NavigationManager {get;set;}=default!;
+
         public Tag[] activeTags = [];
 
         [Parameter]
@@ -31,7 +34,9 @@ namespace AdvanceToDo.Components.Todo.AllTodos
         private void ToggleCompleted(){
              TodoClient.ToggleCompleted(Todo.Id);
         }
-
+        private void OnEdit(){
+               NavigationManager.NavigateTo($"/edit-todo/{Todo.Id}");
+        }
 
         protected override void OnInitialized()
         {

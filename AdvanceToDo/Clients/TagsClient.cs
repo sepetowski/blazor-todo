@@ -3,7 +3,7 @@ using AdvanceToDo.Shared;
 
 namespace AdvanceToDo.Clients
 {
-    public class TagsClient
+    public class TagsClient(TodoClient todoClient)
     {
         private readonly List<Tag> Tags = new();
         public Tag[] GetTags()=> Tags.ToArray();
@@ -24,6 +24,16 @@ namespace AdvanceToDo.Clients
 
             if(tag is not null){
                 Tags.Remove(tag);
+                var todos= todoClient.GetTodos();
+
+                foreach (var todo in todos){
+                    if (todo.TagsIds.Contains(id)){
+                        var tagsList = todo.TagsIds.ToList();
+                        tagsList.Remove(id);
+                        todo.TagsIds = [.. tagsList];
+                     }
+                    }
+                
                 return new ResponseInfo();
             }
                return new ResponseInfo(){Error=true,Message="Tag not found."};

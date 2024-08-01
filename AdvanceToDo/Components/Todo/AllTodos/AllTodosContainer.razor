@@ -2,10 +2,14 @@
 
 
 <div class="my-5 d-flex flex-column align-items-center w-100 gap-4">
+
+    @if(TodoClient.GetTodos().Count()==0)
+    {
+        <p>No todos found</p>
+    }
     @foreach(var todo in TodoClient.GetTodos()){
         <TodoItem @key="todo.Id" Todo="todo" OnChange="OnChange" />
     }
-
 </div>
 
 

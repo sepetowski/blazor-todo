@@ -21,6 +21,21 @@ namespace AdvanceToDo.Clients
             Todos.Add(newTodo);
         }
 
+         public void EditTodo(FormTodo todo,string id){
+            var edited= Todos.Find(t=>t.Id==id);
+           if(edited is not null){
+
+            edited.Title=todo.Title;
+            edited.TagsIds=todo.TagsIds;
+            edited.PiorityLevel=todo.PiorityLevel;
+            edited.Description=todo.Description;
+           }
+        }
+
+        public Todo? GetTodoById(string id){
+          return Todos.FirstOrDefault((t)=>t.Id==id);
+        }
+
         public void DeleteTodo(string id){
             var todo= Todos.Find(t=>t.Id==id);
 
