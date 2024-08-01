@@ -8,6 +8,7 @@ builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
 
 builder.Services.AddSingleton<TagsClient>();
+builder.Services.AddSingleton<TodoClient>();
 
 var app = builder.Build();
 

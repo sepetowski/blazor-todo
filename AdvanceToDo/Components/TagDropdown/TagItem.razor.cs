@@ -12,9 +12,19 @@ namespace AdvanceToDo.Components.TagDropdown
         
         [Parameter]
         public EventCallback<MouseEventArgs> OnDelete {get; set;}
+        
+        [Parameter]
+        public EventCallback<Tag> TagSelected {get; set;}
+        
+
+        private async Task OnTagSelected(){
+            await TagSelected.InvokeAsync(Tag);
+        }
+     
 
         [Parameter]
         public required Tag Tag {get; set;}
-        
-    }
+
+    
+}
 }

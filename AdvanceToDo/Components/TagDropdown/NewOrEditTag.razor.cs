@@ -8,7 +8,7 @@ namespace AdvanceToDo.Components.TagDropdown
     public partial class NewOrEditTag
     {
 
-        [SupplyParameterFromForm]
+        [SupplyParameterFromForm(FormName ="EditOrNewTag")]
         public FormTag? Model {get;set;}
      
         [Parameter]
@@ -19,6 +19,9 @@ namespace AdvanceToDo.Components.TagDropdown
 
         [Parameter]
         public EventCallback<MouseEventArgs> OnCancel {get; set;}
+
+        [Parameter]
+        public EventCallback<Tag> TagEdited {get; set;}
 
         [Inject]
         private TagsClient TagsClient {get;set;}=default!;
@@ -37,8 +40,10 @@ namespace AdvanceToDo.Components.TagDropdown
                         errorMsg=res.Message;
                     }
 
-                    if(res.Error==false)
+                    if(res.Error==false){
                         await OnCancel.InvokeAsync();
+                        await TagEdited.InvokeAsync(newTag);
+                    }
                 }else{
                     var res = TagsClient.AddNewTag(Tag.Title);
 

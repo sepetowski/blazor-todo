@@ -2,7 +2,6 @@ using AdvanceToDo.Clients;
 using AdvanceToDo.Models;
 using Microsoft.AspNetCore.Components;
 
-
 namespace AdvanceToDo.Components.TagDropdown
 {
     public partial class TagDropdown
@@ -15,6 +14,21 @@ namespace AdvanceToDo.Components.TagDropdown
 
         private FormTag? editingTag;
 
+        [Parameter]
+        public EventCallback<Tag> TagSelected {get;set;}
+
+        [Parameter]
+        public EventCallback<Tag> TagEdited {get; set;}
+
+        
+        [Parameter]
+        public EventCallback<string> TagIdDeleted {get;set;}
+
+        
+        private async Task OnTagSelected(Tag tag){
+            await TagSelected.InvokeAsync(tag);
+        }
+     
         private void OnChangeMode(CurrentMode mode)
         {
             currentMode = mode;
@@ -35,8 +49,9 @@ namespace AdvanceToDo.Components.TagDropdown
             }
         }
 
-        private void OnDelete(string id){
+        private async Task OnDelete(string id){
             TagsClient.DeleteTag(id);
+            await TagIdDeleted.InvokeAsync(id);
         }
 
         private bool IsEdditing() => currentMode == CurrentMode.Editing;

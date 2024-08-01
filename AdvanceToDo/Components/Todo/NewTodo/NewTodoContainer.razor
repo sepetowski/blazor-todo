@@ -1,0 +1,52 @@
+﻿@using AdvanceToDo.Models
+@using AdvanceToDo.Components.TagDropdown
+@rendermode InteractiveServer
+
+
+@if(Model is not null){
+<div class="row justify-content-center align-items-center min-vh-100 ">
+    <div class="col-12 col-md-6 ">
+
+         <div class="d-flex align-items-center justify-content-end gap-2 mb-4">
+            <div class="d-flex flex-wrap gap-2">
+                @foreach(var tag in SelectedTags){
+                <div @key="tag.Id"><button @onclick="()=>OnRemoveTag(tag.Id)" type="button" class="btn btn-sm btn-outline-light">@tag.Title</button></div>
+                }
+            </div>
+            <TagDropdown TagSelected="OnTagSelected" TagIdDeleted="OnDeletedTagFromList" TagEdited="OnTagEdited"/>
+        </div>
+
+
+        <EditForm class="d-flex flex-column gap-3" Model="@Model" FormName="NewTodo" OnValidSubmit="HandleSubmit">
+            <DataAnnotationsValidator/>
+            <div>
+                <label for="title" class="form-label">Title</label>
+                <InputText placeholder="My Task" @bind-Value="Model.Title" class="form-control" id="title" />
+                <div class="fs-6 text-danger">
+                      <ValidationMessage For="()=> Model.Title" />
+                </div>
+            </div>
+
+            <div>
+                <label for="description" class="form-label">Description</label>
+                <InputTextArea rows="5"  placeholder="My Task Description" @bind-Value="Model.Description" class="form-control" id="description" />
+                <div class="fs-6 text-danger">
+                      <ValidationMessage For="()=> Model.Description" />
+                </div>
+            </div>
+                
+            <div>
+                <label for="piorityLevel" class="form-label">Piority level</label>
+                <InputSelect id="piorityLevel" class="form-select" @bind-Value="Model.PiorityLevel" >
+                @foreach (var priority in Enum.GetValues<PiorityLevel>()){
+                     <option value="@priority">@priority</option>
+                }
+                </InputSelect>
+                <ValidationMessage For="()=>Model.PiorityLevel"/>
+            </div>
+
+            <button type="submit" class="btn btn-primary mt-3">Submit</button>
+        </EditForm>
+    </div>
+</div>
+}

@@ -3,7 +3,7 @@
 
 
 @if(Model is not null){
-<EditForm Model="@Model"  FormName="EditOrNewTag" OnValidSubmit="SubmitAsync" OnInvalidSubmit="()=>errorMsg=null" >
+<EditForm Model="@Model"  FormName="EditOrNewTag" OnValidSubmit="SubmitAsync" OnInvalidSubmit="()=>errorMsg=null" OnValidSubmit::after >
     <DataAnnotationsValidator/>
 
     <div class="mb-3">
