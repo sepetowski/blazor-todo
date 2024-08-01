@@ -8,5 +8,9 @@ namespace AdvanceToDo.Components.Todo.AllTodos
 
         [Inject]
         private TodoClient TodoClient {get;set;}= default!;
+
+        private void OnChange(){
+            StateHasChanged();
+        }
     }
 }

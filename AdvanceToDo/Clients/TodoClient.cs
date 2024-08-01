@@ -20,5 +20,24 @@ namespace AdvanceToDo.Clients
 
             Todos.Add(newTodo);
         }
+
+        public void DeleteTodo(string id){
+            var todo= Todos.Find(t=>t.Id==id);
+
+            if(todo is not null)
+                Todos.Remove(todo);
+        }
+
+        public void ToggleCompleted(string id){
+             var todo= Todos.Find(t=>t.Id==id);
+
+            if(todo is not null){
+
+                if(todo.CompleteDate is null)
+                todo.CompleteDate= DateTime.UtcNow;
+                else
+                 todo.CompleteDate= null;
+            }
+        }
     }
 }
